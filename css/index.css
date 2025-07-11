@@ -1,0 +1,237 @@
+.titulo-link {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 30px;
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    height: 150%;
+    color: white;
+
+}
+
+h1 {
+    padding-top: 150px;
+    font-size: 4.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 span {
+    color: white;
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.icons {
+    padding: 10px 0;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.icons i {
+    margin: 0 10px;
+    color: white;
+}
+
+#codigoCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.navbar {
+    z-index: 10;
+    position: relative;
+    background-color: #000000;
+}
+
+
+.buttons .btn {
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buttons {
+    position: relative;
+    z-index: 2;
+}
+
+.primary {
+    background-color: white;
+    color: #0a192f;
+}
+
+.secondary {
+    border: 2px solid white;
+    color: white;
+}
+
+.secondary:hover {
+    background-color: white;
+    color: #0a192f;
+}
+
+.primary:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.about-me {
+    color: white;
+    background-color: black;
+    padding-top: -500px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 0;
+}
+
+.about-me h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#codigoCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#intro-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.intro-content {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    padding-top: 0px;
+    padding: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-body {
+    h5 {
+        padding-bottom: 0px;
+    }
+
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.card {
+    background-color: #000000;
+    border-color: white;
+    border: 1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 1rem;
+    }
+
+    .about-me {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-me h1 {
+        font-size: 2rem;
+    }
+
+    .about-me p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+        padding-top: 100px;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .about-me {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about-me h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-me p {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 769px) {}
